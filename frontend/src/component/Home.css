@@ -1,0 +1,33 @@
+.card-container {
+    /* Background color for the container */
+    padding: 20px; /* Add some padding to the container */
+  }
+  
+  .card-item {
+    display: flex;
+    justify-content: center; /* Center the card items */
+    margin-bottom: 20px; /* Space between rows */
+
+  }
+  
+  .card {
+    transition: transform 0.3s ease; /* Animation for scaling */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect on hover */
+  }
+  
+  .card img {
+    border-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  .card-content {
+    text-align: center; /* Center the text in the card */
+  }
+  
+  h4 {
+    text-align: center; /* Center the title */
+  }
+  
